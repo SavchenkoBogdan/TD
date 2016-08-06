@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-interface ITowerController
+public interface ITowerController
 {
     void Shoot(BaseEnemyController enemy);
     void FindTarget();

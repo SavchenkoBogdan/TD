@@ -9,8 +9,8 @@ public class GuiModel : IGuiModel
     public GuiModel(IGuiView view)
     {
         _view = view;
-	    EventAggregator.UnitReachedFinish.Subscribe(OnUnitReachedFinish);
-        EventAggregator.EnergyRecieved.Subscribe(OnEnergyRecieved);
+	    //EventAggregator.UnitReachedFinish.Subscribe(OnUnitReachedFinish);
+        //EventAggregator.EnergyRecieved.Subscribe(OnEnergyRecieved);
 	}
 
     private void OnUnitReachedFinish()

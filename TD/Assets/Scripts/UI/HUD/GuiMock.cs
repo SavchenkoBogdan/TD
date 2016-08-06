@@ -13,7 +13,7 @@ public class GuiMock : MonoBehaviour
         tapItem.onClick.AddListener(() =>
         {
             Debug.Log("CLICK");
-            EventAggregator.EnergyRecieved.Publish();
+            //EventAggregator.EnergyRecieved.Publish();
         });
 	}
 
@@ -21,13 +21,13 @@ public class GuiMock : MonoBehaviour
     void OnMouseDown()
     {
         Debug.Log("DA");
-        EventAggregator.EnergyRecieved.Publish();
+        //EventAggregator.EnergyRecieved.Publish();
     }
 	void Update ()
 	{
         //EventAggregator.EnergyRecieved.Publish();
 
-        EventAggregator.UnitReachedFinish.Publish();
+        //EventAggregator.UnitReachedFinish.Publish();
 
 
     }

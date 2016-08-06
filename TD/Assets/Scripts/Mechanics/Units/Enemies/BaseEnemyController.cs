@@ -61,7 +61,7 @@ public class BaseEnemyController : MonoBehaviour, IBaseEnemyController
         if (!isMoving)
         {
             OnFinishReached();
-            EventAggregator.UnitReachedFinish.Publish();
+            //EventAggregator.UnitReachedFinish.Publish();
             Die();
             return;
         }

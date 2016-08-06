@@ -41,8 +41,8 @@ public class LevelManager : MonoBehaviour
     void OnEnable()
     {
         _instance = this;
-        EventAggregator.UnitReachedFinish.Subscribe(OnUnitReachedFinish);
-        EventAggregator.EnergyRecieved.Subscribe(OnEnergyRecieved);
+        //EventAggregator.UnitReachedFinish.Subscribe(OnUnitReachedFinish);
+        //EventAggregator.EnergyRecieved.Subscribe(OnEnergyRecieved);
         _gameHealth = _maxHealth;
         _gameEnergy = 0;
         //StartCoroutine(EnergyConsumingProcess());
