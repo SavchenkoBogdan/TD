@@ -68,3 +68,5 @@ TD/ExportedObj/
 *.user
 *.unityproj
 *.booproj
+TD/Library/assetDatabase3
+TD/Library/CurrentLayout.dwlt
