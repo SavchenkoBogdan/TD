@@ -45,4 +45,26 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-TD/Temp/UnityLockfile
+
+# =============== #
+# Unity generated #
+# =============== #
+TD/Temp/
+TD/Obj/
+TD/UnityGenerated/
+TD/Library/
+TD/Assets/AssetStoreTools*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+TD/ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
