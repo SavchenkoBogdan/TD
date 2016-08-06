@@ -49,10 +49,10 @@ Temporary Items
 # =============== #
 # Unity generated #
 # =============== #
-TD/Temp/
-TD/Obj/
-TD/UnityGenerated/
-TD/Library/
+TD/Temp
+TD/Obj
+TD/UnityGenerated
+TD/Library
 TD/Assets/AssetStoreTools*
 
 # ===================================== #
