@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
     <UnityVersion>5.3.5f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -63,9 +61,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Extensions\EasyHills2D\ExampleScenes\Scripts\CameraFollow2D.cs" />
+    <Compile Include="Assets\Extensions\EasyHills2D\ExampleScenes\Scripts\Destruction.cs" />
+    <Compile Include="Assets\Extensions\EasyHills2D\ExampleScenes\Scripts\test.cs" />
+    <Compile Include="Assets\Extensions\EasyHills2D\Scripts\EasyHill2DManager.cs" />
+    <Compile Include="Assets\Extensions\EasyHills2D\Scripts\EasyHill2DNode.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Managers\EnemiesManager.cs" />
-    <Compile Include="Assets\Scripts\Mechanics\Managers\Events\EventAggregator.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Managers\Events\CustomEvent.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\Managers\Events\EventAggregator.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Managers\Events\EventAggregatorBase.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Managers\Events\ICustomEvent.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Managers\GameManager.cs" />
@@ -85,6 +88,11 @@
     <Compile Include="Assets\Scripts\Mechanics\Units\Towers\ITowerController.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Units\Towers\SimpleTowerController.cs" />
     <Compile Include="Assets\Scripts\Mechanics\Units\Towers\Tower.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\Wave\WaveManager.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\Wave\WaveManagerSaver.cs" />
+    <Compile Include="Assets\Scripts\Mechanics\Wave\XML.cs" />
+    <Compile Include="Assets\Scripts\RoadBuilder.cs" />
+    <Compile Include="Assets\Scripts\RoadMover.cs" />
     <Compile Include="Assets\Scripts\UI\HUD\GuiMock.cs" />
     <Compile Include="Assets\Scripts\UI\HUD\GuiModel.cs" />
     <Compile Include="Assets\Scripts\UI\HUD\GuiView.cs" />
